@@ -1,0 +1,23 @@
+* create a python env
+* how to create threads in python
+* thread1 = agent identity module
+* thread2 = language output module
+* thread3 = outside agent identity module
+* You can run this prompt from the Gemini API, after installing the relevant package, by running the following code: 
+    * https://ai.google.dev/gemini-api/docs 
+    * https://ai.google.dev/gemini-api/docs/downloads 
+* how to test it on agency, identity, or some other metric? why is it important to have?
+
+agent module:
+* memory
+* cognitive module
+* start outside agent identity module run
+* 1 LLM w/ reasoning
+* outputs: thoughts (text) & internal model update
+
+language output module:
+* take internal model info and output text to listener
+* 1 LLM w/o reasoning
+
+outside agent identity module (optional):
+* may be too complex and the agent module could be asked to reflect sometimes on a person and how they would talk
